@@ -1,0 +1,127 @@
+.left__resume a{
+    color: var(--primari-color);
+}
+
+.left__resume :hover{
+    color: var(--primari-color);
+}
+
+/* experiences */
+
+.experiences__h4{
+    font-size: 2.4rem;
+    margin: 40px 0;
+    font-weight: 500;
+    border-bottom: 1px solid #EEEEEE;
+    line-height: 2.6rem;
+}
+
+.experiences__ul{
+    margin-left: 5px;
+    padding: 5px 20px;
+    border-left: 1px solid #EEEEEE;
+    text-decoration: none;
+}
+
+.experiences__ul--list{
+    list-style: none;
+    margin-bottom: 40px;
+}
+
+.experiences__ul--list:last-child{
+    margin-bottom: 0;
+}
+
+.experiences__ul--list h4{
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.experiences__ul--list h4::before{
+    content: "";
+    display: inline-flex;
+    width: 10px;
+    height: 10px;
+    background: #0099cc;
+    border-radius: 50%;
+    position: relative;
+    left: -25px;
+    margin-top: 2px;
+}
+
+.experiences__ul--list span{
+    font-size: 1.4rem;
+    color: #999999;
+    border-bottom: 1px solid #0099CC;
+}
+
+.experiences__ul li p{
+    font-size: 1.6rem;
+    font-family: 'Source Sans Pro';
+    line-height: 26px;
+    color: #424242;
+    margin-top: 20px;
+}
+
+/* studies */
+
+.studies{
+    margin-top: 60px;
+}
+
+.studies__h4{
+    font-size: 2.4rem;
+    margin: 40px 0;
+    font-weight: 500;
+    border-bottom: 1px solid #EEEEEE;
+    line-height: 2.6rem;
+}
+
+.studies__ul{
+    margin-left: 5px;
+    padding: 5px 20px;
+    border-left: 1px solid #EEEEEE;
+    text-decoration: none;
+}
+
+.studies__ul--list{
+    list-style: none;
+    margin-bottom: 40px;
+}
+
+.studies__ul--list:last-child{
+    margin-bottom: 0;
+}
+
+.studies__ul--list h4{
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.studies__ul--list h4::before{
+    content: "";
+    display: inline-flex;
+    width: 10px;
+    height: 10px;
+    background: #0099cc;
+    border-radius: 50%;
+    position: relative;
+    left: -25px;
+    margin-top: 2px;
+}
+
+.studies__ul--list span{
+    font-size: 1.4rem;
+    color: #999999;
+    border-bottom: 1px solid #0099CC;
+}
+
+.studies__ul li p{
+    font-size: 1.6rem;
+    font-family: 'Source Sans Pro';
+    line-height: 26px;
+    color: #424242;
+    margin-top: 20px;
+}

@@ -1,0 +1,178 @@
+.left__skills a{
+    color: var(--primari-color);
+}
+
+.left__skills :hover{
+    color: var(--primari-color);
+}
+
+.below > p{
+    font-size: 1.6rem;
+    margin: 50px 0;
+    line-height: 2.4rem;
+}
+
+.Myskill__h4{
+    font-size: 2.4rem;
+    margin: 40px 0;
+    font-weight: 500;
+    border-bottom: 1px solid #EEEEEE;
+    line-height: 2.6rem;
+}
+
+.below-Skill__program{
+    margin-top: 60px;
+}
+
+.program__content{
+    display: flex;
+}
+
+.program__introduce{
+    flex: 1;
+    margin-right: 50px;
+}
+
+.program__introduce span{
+    font-size: 1.6rem;
+    font-family: 'Source Sans Pro';
+    line-height: 26px;
+}
+
+.program__chart{
+    flex: 1;
+}
+
+.program__chart p{
+    font-size: 1.6rem;
+}
+
+.chart-layout__box-item{
+    width: var(--percent);
+    color: #fff;
+    text-align: center;
+    height: 20px;
+    background-color: #F8F8F8;
+    margin: 5px 0 10px;
+}
+
+.chart-layout__item{
+    width: var(--percent);
+    color: #fff;
+    text-align: center;
+    height: 20px;
+    background-color: #1297E0;
+    margin: 5px 0 10px;
+    animation: growth_chart 1s linear;
+}
+
+@keyframes growth_chart{
+    from{
+        opacity: 0;
+        width: 0px;
+    }
+    to{
+        opacity: 1;
+        width: calc(--percent);
+    }
+}
+
+/* provide */
+
+.below-Skill__provide{
+    margin-top: 60px;
+}
+
+.provide--content{
+    display: flex;
+}
+
+.provide--content__box{
+    padding: 0 20px;
+}
+
+.provide--content__box--content div i{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.provide--content__box--content h4{
+    text-align: center;
+    font-size: 1.4rem;
+    margin: 20px 0 10px;
+    font-weight: 500;
+}
+
+.provide--content__box--content p{
+    text-align: center;
+    margin: 6px 0;
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+
+/* Number proud */
+
+.below-Skill__number_proud{
+    margin-top: 60px;
+}
+
+.number_proud__box{
+    display: flex;
+    justify-content: space-around;
+}
+
+.number_proud__box-content{
+    text-align: center;
+}
+
+.number_proud__box-content h4{
+    font-size: 40px;
+    line-height: 34px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.number_proud__box-content span{
+    font-size: 16px;
+    font-family: 'Source Sans Pro';
+    line-height: 26px;
+    color: #424242;
+}
+
+/* languages */
+
+.below-Skill__languaes{
+    margin-top: 60px;
+}
+
+.below-Skill__languaes__box{
+    display: flex;
+}
+
+.below-Skill__languaes__box-chart{
+    flex: 1;
+    margin-right: 25px;
+}
+
+.box-chart p{
+    display: inline-block;
+    font-size: 1.6rem;
+}
+
+.box-chart span{
+    float: right;
+    font-size: 1.6rem;
+}
+
+.below-Skill__languaes__box--content{
+    flex: 1;
+    margin-left: 25px;
+}
+
+.below-Skill__languaes__box--content p{
+    font-size: 1.6rem;
+    font-family: 'Source Sans Pro';
+    line-height: 2.6rem;
+    color: #424242;
+}

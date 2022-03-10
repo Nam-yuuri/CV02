@@ -1,0 +1,39 @@
+.left__home a{
+    color: var(--primari-color);
+}
+
+.left__home :hover{
+    color: var(--primari-color);
+}
+
+.center__home-content{
+    margin: auto;
+    width: 80%;
+    height: auto;
+    position: relative;
+    top: 25%;
+    color: whitesmoke;
+}
+
+.home__content h1{
+    line-height: 50px;
+    font-size: 50px;
+    font-family: 'Roboto Slab';
+    border-bottom: 1px solid #FFFFFF;
+    margin-bottom: 0;
+}
+
+.home__content em{
+    display: block;
+    font-size: 25px;
+    font-family: 'Courgette';
+    text-align: right;
+    margin-top: 5px;
+    font-weight: 600;
+}
+
+.home__content p{
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 25px;
+}

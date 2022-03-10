@@ -1,0 +1,39 @@
+.left__notice a{
+    color: var(--primari-color);
+}
+
+.left__notice :hover{
+    color: var(--primari-color);
+}
+
+.notice__h4{
+    font-size: 2rem;
+    margin: 20px 0;
+    font-weight: 500;
+    border-bottom: 1px solid #EEEEEE;
+    line-height: 2.6rem;
+}
+
+.below__notice p{
+    font-size: 16px;
+    font-family: 'Source Sans Pro';
+    line-height: 26px;
+    color: #424242;
+}
+
+.below__notice li{
+    list-style: none;
+    line-height: 2rem;
+    margin: 6px 0;
+}
+
+.below__notice li i{
+    color: #0099CC;
+    font-size: 1.2rem;
+    margin-right: 5px;
+}
+
+.below__notice li span{
+    font-size: 1.4rem;
+    font-weight: 400;
+}
